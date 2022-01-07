@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+*,
+::before,
+::after {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #041c32;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: "Roboto", sans-serif;
+}
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+	color: #f1f1f1;
+	margin-bottom: 150px;
+}
+
+h2 {
+	margin-bottom: 20px;
+	color: #ecb365;
+}
+
+#conteneur {
+	width: 60%;
+	height: 80%;
+	background-color: #04293a;
+	color: #f1f1f1;
+	padding: 20px;
+	border-radius: 15px;
+	margin-bottom: 300 px;
+}
+
+#probleme {
+	margin: 20px;
+	margin-bottom: 100px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#solution {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#affichage {
+	position: relative;
+}
+
+#resultat {
+	width: 350px;
+	visibility: hidden;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #ecb365;
+	border-radius: 5px;
+	color: black;
+	position: absolute;
+	left: calc(50% - 175px);
+}
+
+#erreur {
+	width: 350px;
+	visibility: hidden;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: red;
+	border-radius: 5px;
+	position: absolute;
+	left: calc(50% - 175px);
+}
